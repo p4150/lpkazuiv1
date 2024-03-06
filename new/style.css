@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.banner-kazui {
+    height: 615px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.logo-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 300px;
+}
+
+.conteudo {
+    color: white;
+    text-align: center;
+    font-family: Akronim;
+    font-size: 50px;
+}
+
+.image-mulher {
+    height: 615px;
+}
+
+.nav-kazui {
+    display: flex;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+}
+
+.navigation a:hover {
+    color: rgb(56, 54, 54);
+    font-weight: 600;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.sobre-nos {
+    display: flex;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 100%);
+    height: 650px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    margin: 125px auto;
+}
+
+.image-sobre {
+    height: 525px;
+}
+
+.texto-sobre {
+    display: flex;
+    flex-direction: column;
+    height: 495px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.texto1 {
+    color: white;
+    margin: 10px auto;
+    width: 470px;
+    font-size: 20px;
+}
